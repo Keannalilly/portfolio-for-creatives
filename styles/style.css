@@ -72,18 +72,18 @@ html {
   --heading-typeface: "Playfair Display", serif;
   --fancy-script: "Fleur De Leah", cursive;
   --project-title-typeface: "Playfair Display", serif;
-  --background-color: #fdfdfd;
-  --background-color-about: #f5f5f5;
-  --background-color-footer: #f5f5f5;
-  --alt-background-color: #000000;
+  --background-color: #8a2be2;
+  --background-color-about: #8a2be2;
+  --background-color-footer: #5e56e6;
+  --alt-background-color: #ffffff;
   --background-color-holding-page: rgba(82, 0, 255, 0.6);
   --h1-color: #fbfbff;
-  --h2-color: #5200ff;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
-  --primary-text-color: #222;
+  --h2-color: #800000;
+  --h3-color: #800000;
+  --h4-color: #800000;
+  --h5-color: #800000;
+  --h6-color: #800000;
+  --primary-text-color: #ffffff;
   --holding-page-title-color: #ebedf0;
   --accent-color: #5200ff;
   --overlay-color: #5200ff;
@@ -99,9 +99,9 @@ html {
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #5200ff;
-  --linear-gradient-color-1: #ff057c;
-  --linear-gradient-color-2: #8d0b93;
-  --linear-gradient-color-3: #321575;
+  --linear-gradient-color-1: #800000;
+  --linear-gradient-color-2: #505fe5;
+  --linear-gradient-color-3: #8f40af;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
 
