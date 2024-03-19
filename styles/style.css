@@ -78,8 +78,8 @@ html {
   --alt-background-color: #ffffff;
   --background-color-holding-page: rgba(82, 0, 255, 0.6);
   --h1-color: #fbfbff;
-  --h2-color: #800000;
-  --h3-color: #800000;
+  --h2-color: #ffffff;
+  --h3-color: #ffffff;
   --h4-color: #800000;
   --h5-color: #800000;
   --h6-color: #800000;
@@ -89,16 +89,16 @@ html {
   --overlay-color: #5200ff;
   --overlay-title-color: #ffffff;
   --overlay-description-color: #ffffff;
-  --hyperlink-color: #5200ff;
-  --hyperlink-alternate-color: orangered;
-  --hover-color: #111;
-  --visited-color: #5200ff;
-  --project-title-color: #5200ff;
+  --hyperlink-color: #ffffff;
+  --hyperlink-alternate-color: rgb(255, 255, 255);
+  --hover-color: #705bb2;
+  --visited-color: #ffffff;
+  --project-title-color: #ffffff;
   --project-sidebar-background-color: orangered;
   --project-sidebar-text-color: white;
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
-  --text-selection-background-color: #5200ff;
+  --text-selection-background-color: #fbfbfb;
   --linear-gradient-color-1: #800000;
   --linear-gradient-color-2: #505fe5;
   --linear-gradient-color-3: #8f40af;
@@ -108,7 +108,21 @@ html {
 body {
   font-family: var(--body-typeface);
   color: var(--primary-text-color);
-  background: var(--background-color);
+  background: linear-gradient(
+    to right bottom,
+    #000000,
+    #28131e,
+    #451e3d,
+    #5c2d66,
+    #654397,
+    #705bb2,
+    #7a73ce,
+    #838be9,
+    #a7a6ef,
+    #c6c3f4,
+    #e4e0fa,
+    #ffffff
+  );
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -323,7 +337,11 @@ a:active {
 }
 
 .logo {
-  width: 3rem;
+  width: 12rem;
+  display:flex;
+  flex-direction: row ;
+  justify-content: center;
+  text-align: center;
 }
 
 .hero-headline-wrapper {
@@ -428,7 +446,21 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  background: var(--background-color-about);
+  background: linear-gradient(
+    to right bottom,
+    #000000,
+    #28131e,
+    #451e3d,
+    #5c2d66,
+    #654397,
+    #705bb2,
+    #7a73ce,
+    #838be9,
+    #a7a6ef,
+    #c6c3f4,
+    #e4e0fa,
+    #ffffff
+  );
   padding: 1rem;
   flex: 1;
 }
