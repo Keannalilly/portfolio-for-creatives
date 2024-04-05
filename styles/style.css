@@ -518,8 +518,10 @@ a:active {
 }
 
 .footer-item-4 {
-  grid-column: 1 / 2;
-  grid-row: 4 / 5;
+  grid-column: 1 / -1; /* Span across all columns */
+  grid-row: auto; /* Let the grid determine the row placement */
+  justify-self: center; /* Center horizontally */
+  align-self: end; /* Align to the bottom of the grid */
 }
 
 .awards-list {
