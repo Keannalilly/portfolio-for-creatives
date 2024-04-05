@@ -72,33 +72,33 @@ html {
   --heading-typeface: "Playfair Display", serif;
   --fancy-script: "Fleur De Leah", cursive;
   --project-title-typeface: "Playfair Display", serif;
-  --background-color: #8a2be2;
+  --background-color: #14b3b3;
   --background-color-about: #8a2be2;
   --background-color-footer: #5e56e6;
-  --alt-background-color: #ffffff;
-  --background-color-holding-page: rgba(82, 0, 255, 0.6);
+  --alt-background-color: #020202;
+  --background-color-holding-page: #14b3b3;
   --h1-color: ##838be9;
-  --h2-color: #ffffff;
-  --h3-color: #ffffff;
+  --h2-color: #000000;
+  --h3-color: #000000;
   --h4-color: #800000;
   --h5-color: #800000;
   --h6-color: #800000;
-  --primary-text-color: #ffffff;
-  --holding-page-title-color: #ebedf0;
+  --primary-text-color: #000000;
+  --holding-page-title-color: #000000;
   --accent-color: #5200ff;
   --overlay-color: #5200ff;
-  --overlay-title-color: #ffffff;
-  --overlay-description-color: #ffffff;
-  --hyperlink-color: #ffffff;
-  --hyperlink-alternate-color: rgb(255, 255, 255);
+  --overlay-title-color: #000000;
+  --overlay-description-color: #070707;
+  --hyperlink-color: #111010;
+  --hyperlink-alternate-color: rgb(3, 3, 3);
   --hover-color: #705bb2;
-  --visited-color: #ffffff;
+  --visited-color: #020202;
   --project-title-color: #ffffff;
   --project-sidebar-background-color: #5c2d67;
   --project-sidebar-text-color: white;
   --heart-color: darkred;
-  --holding-page-footer-color: #f8f8ff;
-  --text-selection-background-color: #fbfbfb;
+  --holding-page-footer-color: #030303;
+  --text-selection-background-color: #020202;
   --linear-gradient-color-1: #800000;
   --linear-gradient-color-2: #505fe5;
   --linear-gradient-color-3: #8f40af;
@@ -107,21 +107,21 @@ html {
 
 body {
   font-family: var(--body-typeface);
-  color: var(--primary-text-color);
-  background: linear-gradient(
-    to right bottom,
-    #000000,
-    #28131e,
-    #451e3d,
-    #5c2d66,
-    #654397,
-    #705bb2,
-    #7a73ce,
-    #838be9,
-    #a7a6ef,
-    #c6c3f4,
-    #e4e0fa,
-    #ffffff
+  color: black;
+  background-image: linear-gradient(
+    to left bottom,
+    #5c42cb,
+    #0065db,
+    #007edd,
+    #0092d5,
+    #00a2c9,
+    #2eaec8,
+    #4dbac6,
+    #69c5c5,
+    #90d2d2,
+    #b4dfdf,
+    #d5ecec,
+    #f6f9f9
   );
   display: flex;
   flex-direction: column;
@@ -177,25 +177,25 @@ h3 {
   font-size: 1.325rem;
   margin-bottom: 1rem;
   line-height: 1.3;
-  color: var(--h3-color);
+  color: black;
 }
 
 h4 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  color: var(--h4-color);
+  color: black;
 }
 
 h5 {
   font-size: 1.1rem;
   margin-bottom: 1rem;
-  color: var(--h5-color);
+  color: black;
 }
 
 h6 {
   font-size: 1rem;
   margin-bottom: 1rem;
-  color: var(--h6-color);
+  color: black;
 }
 
 p {
@@ -213,7 +213,7 @@ em {
 }
 
 .hero-headline {
-  color: var(--overlay-color);
+  color: #7db9e2;
 }
 
 .project-title {
@@ -446,20 +446,18 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  background: linear-gradient(
-    to right bottom,
-    #000000,
-    #28131e,
-    #451e3d,
-    #5c2d66,
-    #654397,
-    #705bb2,
-    #7a73ce,
-    #838be9,
-    #a7a6ef,
-    #c6c3f4,
-    #e4e0fa,
-    #ffffff
+  background-image: linear-gradient(
+    to left bottom,
+    #7db9e2,
+    #69b9de,
+    #54b8d7,
+    #3fb7cf,
+    #2ab6c4,
+    #44bbc4,
+    #58c0c4,
+    #69c5c5,
+    #90d2d2,
+    #b4dfdf
   );
   padding: 2rem;
   flex: 1;
@@ -500,8 +498,8 @@ a:active {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 100vh;
-  background: #838be9;
-  padding: 1rem;
+  background: #14b3b3;
+  padding: 3rem;
 }
 
 .footer-item-1 {
@@ -550,8 +548,8 @@ a:active {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  color: var(--project-sidebar-text-color);
-  background: var(--project-sidebar-background-color);
+  color: rgb(255, 255, 255);
+  background: #0689e0;
 }
 
 .project-navigation {
@@ -603,21 +601,7 @@ a:active {
   width: 100%;
   padding: 1rem;
   /* Delete the following if you do not want a gradient background on the project page */
-  background-image: linear-gradient(
-    to right bottom,
-    #000000,
-    #28131e,
-    #451e3d,
-    #5c2d67,
-    #654397,
-    #705bb2,
-    #7a73ce,
-    #838be9,
-    #a7a6ef,
-    #c6c3f4,
-    #e4e0fa,
-    #ffffff
-  );
+  background: #7db9e2;
 }
 
 /* 
@@ -639,12 +623,22 @@ a:active {
   width: 100%;
   min-height: 100vh;
   /* Delete the following if you do not want a grainy gradient background on the holding page */
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 1),
-      var(--background-color-holding-page)
-    ),
-    url(/assets/temp/noise.svg);
+  background-image: linear-gradient(
+    to left top,
+    #5c42cb,
+    #0065db,
+    #007edd,
+    #0092d5,
+    #00a2c9,
+    #2eaec8,
+    #4dbac6,
+    #69c5c5,
+    #90d2d2,
+    #b4dfdf,
+    #d5ecec,
+    #f6f9f9
+  );
+
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
 
@@ -706,7 +700,7 @@ a:active {
 }
 
 .error-page-title {
-  color: var(--accent-color);
+  color: black;
 }
 
 /*
@@ -759,7 +753,7 @@ a:active {
 }
 
 .experiments-page-title {
-  color: var(--accent-color);
+  color: #14b3b3;
   font-size: 2rem;
 }
 
@@ -793,13 +787,13 @@ a:active {
 }
 
 a.sub-navigation-link {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
+  border: 1px solid #14b3b3;
+  color: #14b3b3;
   padding: 1rem;
 }
 
 a.sub-navigation-link:hover {
-  color: var(--accent-color);
+  color: #14b3b3;
   padding: 1rem;
 }
 
@@ -833,14 +827,8 @@ a.sub-navigation-link:hover {
   animation: rotation 9s infinite linear;
 }
 
-@-webkit-keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(359deg);
-  }
+to {
+  transform: rotate(359deg);
 }
 
 /*
