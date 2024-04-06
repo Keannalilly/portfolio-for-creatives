@@ -1,4 +1,4 @@
-:root {
+:root{
   --gradient: linear-gradient(
     to right bottom,
     #7db9e2,
@@ -20,16 +20,6 @@
   background-size: 600%;
   background-image: var(--gradient);
   animation: bg-animation 90s infinite alternate;
-}
-
-@keyframes bg-animation {
-  0% {
-    background-position: 0;
-  }
-
-  100% {
-    background-position: 100%;
-  }
 }
 
 @keyframes bg-animation {
