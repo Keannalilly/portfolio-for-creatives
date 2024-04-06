@@ -90,4 +90,76 @@
             alt="Split Lighting-Photography"
           />
         </div>
+      </main>
+    </div>
 
+    <ul class="global-footer" id="about">
+      <li class="footer-item-1">
+        <h2>About</h2>
+        <p>
+          In Jan 2019, I was diagnosed with Myelodysplastic Syndrome, a rare
+          blood cancer. With a supportive friend by my side, I faced treatments
+          and uncertainties. Amidst struggles and loss, I found solace in
+          planning for a life-saving stem cell transplant. Inspired by my
+          journey, I turned to Twitch streaming and pursued a degree in
+          Multimedia Communications. Now, armed with newfound skills and
+          purpose, I'm ready to inspire and educate others through my story.
+        </p>
+        <img
+          src="assets/about/Keannalilly.jpg"
+          width="500"
+          height="500"
+          alt="Portrait of Keannalilly"
+        />
+      </li>
+
+      <li class="footer-item-3">
+        <h2>Contact &amp; Social</h2>
+        <ul class="socials-list">
+          <li class="social-item">
+            <a href="https://www.twitch.tv/keannalilly" target="_blank"
+              >Twitch</a
+            >
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.youtube.com/@keannalilly9393" target="_blank"
+              >Youtube</a
+            >
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/keannalilly" target="_blank">X</a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.tiktok.com/@keannalilly" target="_blank"
+              >TikTok</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="footer-item-4">
+        <p><a href="#top">Smooth scroll to the top</a></p>
+        <p class="fineprint">
+          &copy;2024. Hand crafted with <span class="heart">❤</span>
+        </p>
+      </li>
+    </ul>
+
+    <script type="text/javascript">
+      myID = document.getElementById("myID");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "bottomMenu show";
+        } else {
+          myID.className = "bottomMenu hide";
+        }
+      };
+
+      window.addEventListener("scroll", myScrollFunc);
+    </script>
+  </body>
+</html>
