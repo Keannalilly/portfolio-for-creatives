@@ -389,26 +389,27 @@ a:active {
 */
 
 .work-wrapper {
-  flex: 1;
+  flex: 2;
+  padding: 0.5;
 }
 
 /* Padding around work grid and project page */
 .portfolio,
 .project-wrapper {
-  padding: 0.5rem;
+  padding: 2rem;
 }
 
 /* Defining the work page grid */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: rem;
   /* Magical, media-query-less responsiveness is achieved using the repeat() function and the auto placement keywords. To achieve wrapping, we can use the auto-fit. If you're using auto-fit, the content will stretch to fill the entire row width.  Specify a minimum width for the columns, using the minmax() function. The 1fr is what tells the browser to distribute the space between the columns so that each column equally gets one fraction of that space.  */
 }
 
 .work-page-grid-item {
-  width: 100%;
-  height: auto;
+  width: "1500";
+  height: "1000";
   position: relative;
   /* Required to contain overlay size */
 }
@@ -428,7 +429,7 @@ a:active {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1em;
+  padding: 2em;
   background-color: var(--overlay-color);
   transition: opacity 0.3s, visibility 0.3s;
 }
